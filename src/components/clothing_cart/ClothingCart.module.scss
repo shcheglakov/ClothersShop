@@ -1,0 +1,28 @@
+.item_clother {
+    margin: 10px;
+
+    >h3 {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+
+    >p {
+        margin: 0px;
+    }
+
+    >img {
+        border-radius: 10px;
+
+    }
+
+    .rating_block {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 8px;
+
+        >p {
+            margin: 0;
+        }
+    }
+}

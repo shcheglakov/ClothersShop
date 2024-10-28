@@ -1,0 +1,33 @@
+.clothing_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+
+    >button {
+        background-color: white;
+        border: 1px solid rgb(236, 236, 236);
+        border-radius: 62px;
+        color: black;
+        font-size: 16px;
+        width: 218px;
+        margin-bottom: 72px;
+        margin-top: 36px;
+    }
+
+    .items_clother {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+    }
+
+    .underline {
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 100%;
+        border-bottom: 1px solid rgb(187, 187, 187);
+    }
+}

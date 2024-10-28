@@ -1,0 +1,52 @@
+.info_block {
+    padding: 100px;
+    background: url('../../assets/images/info_block_background.png') no-repeat center center/cover;
+
+    .info_block_content {
+        width: 45%;
+        >h1 {
+            font-size: 64px;
+            margin-bottom: 32px;
+        }
+        
+        >p {
+            font-size: 16px;
+            margin-bottom: 32px;
+        }
+
+        >button {
+            background-color: black;
+            color: white;
+            border: 0;
+            font-size: 22px;
+            font-family: 'Satoshi';
+            width: 210px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            border-radius: 32px;
+            cursor: pointer;
+            
+            >p {
+                margin: 0;
+            }
+        }
+
+        .numbers_stats {
+            display: flex;
+            padding-top: 75px;
+            gap: 20px;
+
+            .item {
+                >h2 {
+                    font-size: 40px;
+                    margin: 0;
+                }
+            }
+
+            .line {
+                border: 1px solid;
+                color: #c9c9c9;
+            }
+        }
+    }
+}
